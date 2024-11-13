@@ -18,7 +18,7 @@ class PerplexityClient:
     def get_completion(
         self,
         messages: List[Dict[str, str]],
-        model: str = "llama-3.1-sonar-large-128k-online",
+        model: str = "llama-3.1-sonar-small-128k-online",
         max_tokens: Optional[int] = None,
         temperature: float = 0.2,
         top_p: float = 0.9,
